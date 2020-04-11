@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="207349" started-at="2020-04-10T12:04:12Z" finished-at="2020-04-10T12:07:39Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="207349" started-at="2020-04-10T12:04:12Z" finished-at="2020-04-10T12:07:39Z">
+      <class name="TestCases.TC_08DeleteWishList">
+        <test-method status="PASS" signature="configBeforeclass()[pri:0, instance:TestCases.TC_08DeleteWishList@59f99ea]" name="configBeforeclass" is-config="true" duration-ms="17715" started-at="2020-04-10T12:04:12Z" finished-at="2020-04-10T12:04:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeclass -->
+        <test-method status="PASS" signature="configBeforeMethod()[pri:0, instance:TestCases.TC_08DeleteWishList@59f99ea]" name="configBeforeMethod" is-config="true" duration-ms="903" started-at="2020-04-10T12:04:30Z" finished-at="2020-04-10T12:04:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method status="PASS" signature="Delete()[pri:0, instance:TestCases.TC_08DeleteWishList@59f99ea]" name="Delete" duration-ms="6539" started-at="2020-04-10T12:04:31Z" finished-at="2020-04-10T12:04:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete -->
+        <test-method status="PASS" signature="configAfterclass()[pri:0, instance:TestCases.TC_08DeleteWishList@59f99ea]" name="configAfterclass" is-config="true" duration-ms="867" started-at="2020-04-10T12:04:37Z" finished-at="2020-04-10T12:04:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterclass -->
+      </class> <!-- TestCases.TC_08DeleteWishList -->
+      <class name="TestCases.TC_06Mobiles">
+        <test-method status="PASS" signature="configBeforeclass()[pri:0, instance:TestCases.TC_06Mobiles@66a3ffec]" name="configBeforeclass" is-config="true" duration-ms="15815" started-at="2020-04-10T12:06:32Z" finished-at="2020-04-10T12:06:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeclass -->
+        <test-method status="PASS" signature="configBeforeMethod()[pri:0, instance:TestCases.TC_06Mobiles@66a3ffec]" name="configBeforeMethod" is-config="true" duration-ms="897" started-at="2020-04-10T12:06:47Z" finished-at="2020-04-10T12:06:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method status="FAIL" signature="addtowhishlist()[pri:0, instance:TestCases.TC_06Mobiles@66a3ffec]" name="addtowhishlist" duration-ms="24582" started-at="2020-04-10T12:06:48Z" finished-at="2020-04-10T12:07:13Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='_3gDSOa _32A6AP']"}
+  (Session info: chrome=80.0.3987.163)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-CJSEGPD6', ip: '192.168.43.65', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\MADANK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62256}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6e0dc04f4408aea8a60488e5350e6aca
+*** Element info: {Using=xpath, value=//div[@class='_3gDSOa _32A6AP']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='_3gDSOa _32A6AP']"}
+  (Session info: chrome=80.0.3987.163)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-CJSEGPD6', ip: '192.168.43.65', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\MADANK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62256}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6e0dc04f4408aea8a60488e5350e6aca
+*** Element info: {Using=xpath, value=//div[@class='_3gDSOa _32A6AP']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy10.click(Unknown Source)
+at TestCases.TC_06Mobiles.addtowhishlist(TC_06Mobiles.java:18)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtowhishlist -->
+        <test-method status="PASS" signature="configAfterclass()[pri:0, instance:TestCases.TC_06Mobiles@66a3ffec]" name="configAfterclass" is-config="true" duration-ms="899" started-at="2020-04-10T12:07:13Z" finished-at="2020-04-10T12:07:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterclass -->
+      </class> <!-- TestCases.TC_06Mobiles -->
+      <class name="TestCases.TC_07ChangePinCode">
+        <test-method status="PASS" signature="configBeforeclass()[pri:0, instance:TestCases.TC_07ChangePinCode@47c62251]" name="configBeforeclass" is-config="true" duration-ms="16918" started-at="2020-04-10T12:05:31Z" finished-at="2020-04-10T12:05:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeclass -->
+        <test-method status="PASS" signature="configBeforeMethod()[pri:0, instance:TestCases.TC_07ChangePinCode@47c62251]" name="configBeforeMethod" is-config="true" duration-ms="777" started-at="2020-04-10T12:05:48Z" finished-at="2020-04-10T12:05:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method status="PASS" signature="wishlist()[pri:0, instance:TestCases.TC_07ChangePinCode@47c62251]" name="wishlist" duration-ms="12091" started-at="2020-04-10T12:05:49Z" finished-at="2020-04-10T12:06:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wishlist -->
+        <test-method status="PASS" signature="configAfterclass()[pri:0, instance:TestCases.TC_07ChangePinCode@47c62251]" name="configAfterclass" is-config="true" duration-ms="834" started-at="2020-04-10T12:06:01Z" finished-at="2020-04-10T12:06:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterclass -->
+      </class> <!-- TestCases.TC_07ChangePinCode -->
+      <class name="TestCases.TC_02MyProfile">
+        <test-method status="PASS" signature="configBeforeclass()[pri:0, instance:TestCases.TC_02MyProfile@77caeb3e]" name="configBeforeclass" is-config="true" duration-ms="16586" started-at="2020-04-10T12:07:14Z" finished-at="2020-04-10T12:07:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeclass -->
+        <test-method status="PASS" signature="configBeforeMethod()[pri:0, instance:TestCases.TC_02MyProfile@77caeb3e]" name="configBeforeMethod" is-config="true" duration-ms="854" started-at="2020-04-10T12:07:30Z" finished-at="2020-04-10T12:07:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method status="PASS" signature="profile()[pri:0, instance:TestCases.TC_02MyProfile@77caeb3e]" name="profile" duration-ms="7457" started-at="2020-04-10T12:07:31Z" finished-at="2020-04-10T12:07:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profile -->
+        <test-method status="PASS" signature="configAfterclass()[pri:0, instance:TestCases.TC_02MyProfile@77caeb3e]" name="configAfterclass" is-config="true" duration-ms="854" started-at="2020-04-10T12:07:39Z" finished-at="2020-04-10T12:07:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterclass -->
+      </class> <!-- TestCases.TC_02MyProfile -->
+      <class name="TestCases.TC_04HomeNFurniture">
+        <test-method status="PASS" signature="configBeforeclass()[pri:0, instance:TestCases.TC_04HomeNFurniture@27efef64]" name="configBeforeclass" is-config="true" duration-ms="15910" started-at="2020-04-10T12:04:38Z" finished-at="2020-04-10T12:04:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeclass -->
+        <test-method status="PASS" signature="configBeforeMethod()[pri:0, instance:TestCases.TC_04HomeNFurniture@27efef64]" name="configBeforeMethod" is-config="true" duration-ms="860" started-at="2020-04-10T12:04:54Z" finished-at="2020-04-10T12:04:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method status="PASS" signature="wishlist()[pri:0, instance:TestCases.TC_04HomeNFurniture@27efef64]" name="wishlist" duration-ms="12520" started-at="2020-04-10T12:04:55Z" finished-at="2020-04-10T12:05:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wishlist -->
+        <test-method status="PASS" signature="configAfterclass()[pri:0, instance:TestCases.TC_04HomeNFurniture@27efef64]" name="configAfterclass" is-config="true" duration-ms="903" started-at="2020-04-10T12:05:08Z" finished-at="2020-04-10T12:05:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterclass -->
+      </class> <!-- TestCases.TC_04HomeNFurniture -->
+      <class name="TestCases.TC_03MyCart">
+        <test-method status="PASS" signature="configBeforeclass()[pri:0, instance:TestCases.TC_03MyCart@6f7fd0e6]" name="configBeforeclass" is-config="true" duration-ms="15969" started-at="2020-04-10T12:05:08Z" finished-at="2020-04-10T12:05:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeclass -->
+        <test-method status="PASS" signature="configBeforeMethod()[pri:0, instance:TestCases.TC_03MyCart@6f7fd0e6]" name="configBeforeMethod" is-config="true" duration-ms="854" started-at="2020-04-10T12:05:24Z" finished-at="2020-04-10T12:05:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method status="PASS" signature="Mycart()[pri:0, instance:TestCases.TC_03MyCart@6f7fd0e6]" name="Mycart" duration-ms="5253" started-at="2020-04-10T12:05:25Z" finished-at="2020-04-10T12:05:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mycart -->
+        <test-method status="PASS" signature="configAfterclass()[pri:0, instance:TestCases.TC_03MyCart@6f7fd0e6]" name="configAfterclass" is-config="true" duration-ms="898" started-at="2020-04-10T12:05:30Z" finished-at="2020-04-10T12:05:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterclass -->
+      </class> <!-- TestCases.TC_03MyCart -->
+      <class name="TestCases.Tc_01AddToWishList">
+        <test-method status="PASS" signature="configBeforeclass()[pri:0, instance:TestCases.Tc_01AddToWishList@3e6fa38a]" name="configBeforeclass" is-config="true" duration-ms="15250" started-at="2020-04-10T12:06:02Z" finished-at="2020-04-10T12:06:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeclass -->
+        <test-method status="PASS" signature="configBeforeMethod()[pri:0, instance:TestCases.Tc_01AddToWishList@3e6fa38a]" name="configBeforeMethod" is-config="true" duration-ms="905" started-at="2020-04-10T12:06:17Z" finished-at="2020-04-10T12:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method status="PASS" signature="wishlist()[pri:0, instance:TestCases.Tc_01AddToWishList@3e6fa38a]" name="wishlist" duration-ms="12490" started-at="2020-04-10T12:06:18Z" finished-at="2020-04-10T12:06:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wishlist -->
+        <test-method status="PASS" signature="configAfterclass()[pri:0, instance:TestCases.Tc_01AddToWishList@3e6fa38a]" name="configAfterclass" is-config="true" duration-ms="875" started-at="2020-04-10T12:06:31Z" finished-at="2020-04-10T12:06:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterclass -->
+      </class> <!-- TestCases.Tc_01AddToWishList -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
